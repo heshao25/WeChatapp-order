@@ -1,0 +1,14 @@
+<scroll-view scroll-y>
+
+  <view wx:for="{{Storage[0].food}}">
+    <text>{{item}}</text>
+  </view>
+  <view wx:for="{{Storage[0].number}}">
+    <text>{{item}}</text>
+  </view>
+
+
+</scroll-view>
+<text>{{Storage[0].price}}</text>
+<text>{{Storage[0].location}}</text>
+<text>{{Storage[0].time}}</text>

@@ -1,0 +1,28 @@
+/* miniprogram/pages/qrcode/qrcode.wxss */
+page{
+  background: 	#DCDCDC;
+}
+
+.body{
+  background: #F8F8FF;
+  height: 800rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top: 200rpx;
+  border-radius: 25rpx;
+  display: flex;
+  flex-flow: column;
+}
+.body image{
+  height: 500rpx;
+  width: 500rpx;
+  margin-left: 90rpx;
+  margin-top: 90rpx;
+  border-radius: 10rpx;
+}
+.body text{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-top: 50rpx;
+  margin-left: 150rpx;
+ }

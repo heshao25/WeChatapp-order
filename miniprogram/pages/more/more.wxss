@@ -1,0 +1,6 @@
+/* miniprogram/pages/more/more.wxss */
+.location{
+  background: green;
+  width: 200rpx;
+  height:100rpx;
+}

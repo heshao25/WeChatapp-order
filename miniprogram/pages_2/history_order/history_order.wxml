@@ -1,0 +1,35 @@
+<view class="head">
+
+
+</view>
+<view class="neck">
+
+  <scroll-view class="scroll" scroll-y>
+
+    <view class="item" wx:for="{{Order}}" >
+
+      <text class="iconfont icon-dianpu"></text>
+      <text class="text">{{item.nickname}}=>{{item.pickway}}</text>
+      <block wx:if="{{item.pickway=='外卖'}}">
+        <text class="address">{{item.address}}</text>
+      </block>
+      <view class="bar"></view>
+      <view class="content">
+<!--        <image src="cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/tangshi.jpg"></image>-->
+
+        <view class="detail">
+          <text>下单时间:{{item.time}} </text>
+          <text>总价:{{item.price}}元</text>
+        </view>
+
+      </view>
+      <view class="bar_2"></view>
+
+      <button data-id="{{item._id}}" bindtap="tomore">详情</button>
+
+    </view>
+
+  </scroll-view>
+
+
+</view>

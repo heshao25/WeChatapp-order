@@ -1,0 +1,29 @@
+
+<view class="container">
+  <view class="wrapper">
+    <view class="left-top-sign">LOGIN</view>
+    <view class="welcome">
+      欢迎回来！
+    </view>
+    <view class="input-content">
+      <view class="input-item">
+        <text class="tit">账号</text>
+        <input  type="text" placeholder="请输入账号"id="Account"  bindinput="handleInput"/>
+      </view>
+      <view class="input-item">
+        <text class="tit">密码</text>
+        <input type="password"  placeholder="请输入密码" id="Password" bindinput="handleInput"/>
+      </view>
+    </view>
+
+    <button class="confirm-btn" bindtap="login">登录</button>
+    <view class="forget-section" bindtap="torecover">
+      忘记密码?
+    </view>
+
+  </view>
+  <view class="register-section">
+    还没有账号?
+    <text bindtap="tosign">马上注册</text>
+  </view>
+</view>

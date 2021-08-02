@@ -1,0 +1,132 @@
+page{
+  background: aliceblue;
+}
+.head{
+  width: 100%;
+  height: 200rpx;
+}
+.head text{
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top:50rpx;
+  position: absolute;
+  margin-left:280rpx;
+}
+.belly{
+  background:darkgrey;
+  width: 90%;
+  height: 660rpx;
+  margin-left: 36.5rpx;
+  margin-top: 100rpx;
+  border-radius: 25rpx;
+}
+.icon-danju{
+  font-size: 130rpx;
+  position: absolute;
+  margin-left: 65rpx;
+  margin-top: 30rpx;
+}
+.belly_1{
+  width: 250rpx;
+  position: absolute;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  background: #F8F8FF;
+  height: 250rpx;
+  border-radius: 25rpx;
+}
+.belly_1_text{
+  font-size: 35rpx;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 55rpx;
+  margin-top:190rpx;
+}
+.belly_2{
+  width: 250rpx;
+  position: absolute;
+  margin-left:380rpx;
+  margin-top: 40rpx;
+  background: #F8F8FF;
+  height: 250rpx;
+  border-radius: 25rpx;
+}
+.icon-caipin{
+  font-size: 130rpx;
+  position: absolute;
+  margin-left: 65rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+.belly_2_text{
+  font-size: 35rpx;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 55rpx;
+  margin-top:190rpx;
+}
+.belly_3{
+  width: 250rpx;
+  position: absolute;
+  margin-left: 40rpx;
+  margin-top: 360rpx;
+  background: #F8F8FF;
+  height: 250rpx;
+  border-radius: 25rpx;
+}
+.belly_3_text{
+  font-size: 35rpx;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 55rpx;
+  margin-top:190rpx;
+}
+.icon-lishidingdan{
+  font-size: 130rpx;
+  position: absolute;
+  margin-left: 65rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+.belly_4{
+  width: 250rpx;
+  position: absolute;
+  margin-left:380rpx;
+  margin-top: 360rpx;
+  background: #F8F8FF;
+  height: 250rpx;
+  border-radius: 25rpx;
+}
+.belly_4_text{
+  font-size: 35rpx;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 55rpx;
+  margin-top:190rpx;
+}
+.icon-shangjia{
+  font-size: 130rpx;
+  position: absolute;
+  margin-left: 65rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+.foot{
+  width: 100%;
+  bottom: 0;
+  height:200rpx
+}
+.close{
+  width: 90%;
+  height: 150rpx;
+  margin-left: 36.5rpx;
+  margin-top: 25rpx;
+  font-size: 100rpx;
+  color: #F8F8FF;
+  background: #d43c33;
+  position: absolute;
+  border-radius: 25rpx;
+  text-align: center;
+  font-weight: bold;
+}

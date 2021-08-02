@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages_3/index/index",
+    "pages/index/index",
+    "pages_2/shop_information/shop_information",
+    "pages/order/order",
+    "pages/login/login",
+    "pages_3/complaints/complaints",
+   
+    "pages_3/user_management/user_management",
+    "pages_3/shop_management/shop_management",
+    "pages_2/m_del/m_del",
+    "pages_2/m_up/m_up",
+    "pages_2/m_up_next/m_up_next",
+    "pages_2/m_add/m_add",
+    "pages_2/management/management",
+    "pages_2/index/index",
+    "pages_2/more/more",
+    "pages/qrcode/qrcode",
+    "pages/personal/personal",
+    "pages_2/order/order",
+    "pages_2/history_order/history_order",
+    "pages/person_information/person_information",
+    "pages/myorders/myorders",
+    "pages/recover_next/recover_next",
+    "pages/recover/recover",
+    "pages/sign/sign",
+    "pages/settlement/settlement",
+    "pages/more/more",
+    "pages/diner_more/diner_more",
+    "pages/recover_finally/recover_finally",
+    "pages/orderdetail/orderdetail",
+    "pages/revise_phone/revise_phone",
+    "pages/revise_location/revise_loaction",
+    "pages/revise_nickname/revise_nickname",
+    "pages_2/revise_time/revise_time"
+
+  ],
+  "window": {
+    "backgroundColor": "#FF0000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF0000",
+    "navigationBarTitleText": "点餐 ",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/style/tabs/home.png",
+        "selectedIconPath": "/style/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "点餐",
+        "iconPath": "/style/tabs/tab-cart.png",
+        "selectedIconPath": "/style/tabs/tab-cart-current.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/style/tabs/tab-my.png",
+        "selectedIconPath": "/style/tabs/tab-my-current.png"
+      }
+    ]
+  }
+}

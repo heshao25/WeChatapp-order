@@ -1,0 +1,85 @@
+page{
+  background: #DCDCDC;
+}
+
+.head{
+  width: 100%;
+  height: 150rpx;
+  margin-top: 50rpx;
+}
+.head text{
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 50rpxrpx;
+  margin-left: 50rpx;
+  position: absolute;
+}
+.add{
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  height: 200rpx;
+  display: flex;
+}
+.add_text{
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+  position: absolute;
+  margin-left: 50rpx;
+}
+.icon-tianjia{
+  color: red;
+  margin-left: 500rpx;
+  font-size: 70rpx;
+  font-weight: bold;
+  margin-top: 55rpx;
+}
+.del{
+  margin-top: 50rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  height: 200rpx;
+}
+.del_text{
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+  position: absolute;
+  margin-left: 50rpx;
+}
+.icon-jianshao{
+  color: red;
+  margin-left: 510rpx;
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+  position: absolute;
+}
+.up{
+  margin-top: 50rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  height: 200rpx;
+  display: flex;
+}
+.up_text{
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+  position: absolute;
+  margin-left: 50rpx;
+}
+.icon-xiugai{
+  color: red;
+  margin-left: 510rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-top: 60rpx;
+
+}

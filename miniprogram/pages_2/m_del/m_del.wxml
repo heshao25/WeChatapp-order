@@ -1,0 +1,32 @@
+<view class="head">
+  <text class="head_ch">删除菜品</text>
+  <text class="head_en">Delete</text>
+</view>
+
+<view class="body">
+    <view class="step_1">
+        <picker bindchange="bindtypeChange" value="{{index}}" range="{{Type_storage}}">
+      <view class="picker">
+        <text class="pick_text">选择种类:</text>
+        <view class="box">
+        <text class="picker_text">{{Type_storage[index]}}</text>
+        </view>
+      </view>
+    </picker>
+      <view class="iconfont icon-shanchu" bindtap="clear_type"></view>
+    </view>
+
+    <view class="step_2">
+        <scroll-view class="scroll">
+            <view class="item" wx:for="{{Goods_storage}}" >
+                <image src="{{item.image}}"></image>
+                <text class="name">{{item.name}}</text>
+                <text class="iconfont icon-renminbi" ></text>
+                <text class="price">{{item.price}}</text>
+                <text class="iconfont icon-shanchu" data-id="{{item._id}}" bindtap="clear"></text>
+            </view>
+        </scroll-view>
+        <view class="step_2_foot"></view>
+    </view>
+
+</view>

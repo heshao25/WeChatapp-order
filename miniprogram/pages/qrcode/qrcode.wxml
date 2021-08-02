@@ -1,0 +1,8 @@
+<view class="body">
+
+<image src="{{Code}}"></image>
+<!--  cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/avatar/1717048-->
+
+  <text>持此二维码到店取餐</text>
+
+</view>

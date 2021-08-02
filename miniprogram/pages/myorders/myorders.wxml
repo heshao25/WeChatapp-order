@@ -1,0 +1,46 @@
+<view class="head">
+
+  <block wx:if="{{Storage.length==0}}">
+  <text class="tips">无历史订单</text>
+  </block>
+
+</view>
+
+<view class="neck">
+
+  <scroll-view class="scroll" scroll-y>
+
+    <view class="item" wx:for="{{Storage}}" bindtap="todetail"  data-id="{{item.time}}">
+      <text class="iconfont icon-dianpu"></text>
+      <text class="text">{{item.location}}=>{{item.pickway}}</text>
+      <view class="bar"></view>
+      <view class="content" >
+        <image src="cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/tangshi.jpg"></image>
+
+        <view class="detail">
+          <text>下单时间 :{{item.time}}</text>
+          <text>总价:{{item.price}}元</text>
+        </view>
+
+      </view>
+      <view class="bar_2"></view>
+      <block wx:if="{{item.pickway=='店内就餐'}}">
+      <button class="check" catchtap="check" data-time="{{item.time}}">查看二维码</button>
+      </block>
+      <button class="clear" catchtap="clear">删除</button>
+
+    </view>
+
+
+
+
+
+
+  </scroll-view>
+
+
+</view>
+
+<view class="foot">
+
+</view>

@@ -1,0 +1,56 @@
+<view class="head" bindtap="tologin">
+  <view class="avatar">
+    <!--
+  <image catchtap="changeavatar" src='{{Avatar?Avatar:"cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/niming.png"}}'></image>
+-->
+    <image catchtap="changeavatar" src="{{Avatar}}" ></image>
+</view>
+  <view class="username">
+    <text class="name">{{userInfo.nickname?userInfo.nickname:UserNickname}}</text>
+    <text class="account">{{userInfo.account}}</text>
+  </view>
+</view>
+
+<view class="misc">
+
+  <view class="orders">
+    <text class="iconfont icon-danju" bindtap="test"></text>
+    <text class="order">订单</text>
+  </view>
+
+  <view class="informations">
+    <text class="iconfont icon-personnone" bindtap="topersoninformation"></text>
+    <text class="information">个人信息</text>
+  </view>
+
+  <view class="points">
+    <text class="iconfont icon-jifen"></text>
+    <text class="point">积分</text>
+  </view>
+
+</view>
+
+<view class="setting">
+
+  <view class="article">
+    <text>条款与规则</text>
+  </view>
+
+  <view class="bar"></view>
+
+  <view class="security">
+    <text>账号安全</text>
+  </view>
+
+  <view class="bar_2"></view>
+
+   <view class="complaints">
+     <text>投诉与建议</text>
+   </view>
+
+</view>
+<block wx:if="{{Ison!=0}}">
+<view class="quit">
+  <button bindtap="logout">退出登录</button>
+</view>
+</block>

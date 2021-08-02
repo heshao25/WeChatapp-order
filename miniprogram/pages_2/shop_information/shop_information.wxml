@@ -1,0 +1,38 @@
+<view class="head">
+
+  <view class="account">
+    <text>我的账号：{{shopInfo.account}}</text>
+
+  </view>
+
+  <view class="bar"></view>
+
+  <view class="name">
+    <text class="name_text">店面名称：{{shopInfo.name}}</text>
+  </view>
+
+  <view class="bar"></view>
+
+  <view class="location">
+    <text>店面简介：{{shopintorduce[0].information}}</text>
+
+  </view>
+
+  <view class="bar"></view>
+
+  <view class="nickname">
+    <text>店面介绍：{{shopintorduce[0].detail}}</text>
+
+  </view>
+
+  <view class="bar"></view>
+
+  <view class="issue" bindtap="revise">
+    <text>我的营业时间：</text>
+    <text>早餐时间:{{shopInfo.opentime_morning_hour}}:{{shopInfo.opentime_morning_min}}--{{shopInfo.closetime_morning_hour}}:{{shopInfo.closetime_morning_min}}</text>
+    <text>午餐时间:{{shopInfo.opentime_after_hour}}:{{shopInfo.opentime_after_min}}--{{shopInfo.closetime_after_hour}}:{{shopInfo.closetime_after_min}}</text>
+    <text>晚餐时间:{{shopInfo.opentime_evening_hour}}:{{shopInfo.opentime_evening_min}}--{{shopInfo.closetime_evening_hour}}:{{shopInfo.closetime_evening_min}}</text>
+  </view>
+
+
+</view>

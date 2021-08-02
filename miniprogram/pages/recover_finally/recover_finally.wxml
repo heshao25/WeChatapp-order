@@ -1,0 +1,22 @@
+
+<view class="container">
+  <view class="wrapper">
+    <view class="left-top-sign">RECOVER</view>
+    <view class="welcome">
+      回答问题
+    </view>
+    <view class="input-content">
+      <view class="input-item">
+        <text class="tit">密保问题</text>
+        <input  type="text" placeholder="{{Issue}}"id="Password" disabled="true"/>
+      </view>
+      <view class="input-item">
+        <text class="tit">密保答案</text>
+        <input type="text"  placeholder="请输入注册时填写的答案" id="Answer" bindinput="handleInput"/>
+      </view>
+    </view>
+    <button class="confirm-btn" bindtap="torecover_next"> 下一步</button>
+
+  </view>
+
+</view>

@@ -1,0 +1,52 @@
+<view class="head">
+  <text class="iconfont icon-search"></text>
+  <input type="text"  placeholder="请输入要搜索的用户账号" id="Search" bindinput="handleInput"/>
+  <button bindtap="search">搜索</button>
+</view>
+
+<block wx:if="{{Storage.length!=0}}">
+
+  <view class="body">
+    <view class="show">
+      <view class="account">
+        <text style="font-size: 35rpx;font-weight: bold">账号:</text>
+        <text >{{Storage.account}}</text>
+      </view>
+
+      <view class="bar"></view>
+
+      <view class="password">
+        <text>密码:</text>
+        <!--      <text>{{Storage.password}}</text>-->
+        <input type="text"  placeholder="{{Storage.password}}" id="Password" bindinput="handleInput"/>
+        <text style="margin-left:550rpx;position: absolute;margin-top: 35rpx;" class="iconfont icon-xiugai" bindtap="change_password"></text>
+      </view>
+
+      <view class="bar_2"></view>
+
+      <view class="nickname">
+        <text>昵称:</text>
+        <!--      <text >{{Information.information}}</text>-->
+        <input type="text"  placeholder="{{Storage.nickname}}" id="Nickname" bindinput="handleInput"/>
+        <text style="margin-left:550rpx;position: absolute;margin-top: 35rpx;" class="iconfont icon-xiugai" bindtap="change_nickname"></text>
+      </view>
+
+      <view class="bar_3"></view>
+
+      <view class="phone">
+        <text style="width:150rpx">电话:</text>
+<!--        <text >{{Information.detail}}</text>-->
+        <input type="text"  placeholder="{{Storage.phonenumber}}" id="Phone" bindinput="handleInput"/>
+        <text style="margin-left:550rpx;position: absolute;margin-top: 35rpx;" class="iconfont icon-xiugai" bindtap="change_phone"></text>
+      </view>
+
+    </view>
+  </view>
+
+
+
+  <view class="fin">
+    <button bindtap="clear">删除此账号</button>
+  </view>
+
+</block>

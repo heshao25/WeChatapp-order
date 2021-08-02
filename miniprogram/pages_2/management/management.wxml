@@ -1,0 +1,22 @@
+<view class="head">
+  <text>菜品管理</text>
+</view>
+
+<view class="body">
+
+  <view class="add" bindtap="add">
+    <text class="add_text">添加菜品</text>
+    <text class="iconfont icon-tianjia"></text>
+  </view>
+
+  <view class="del" bindtap="del">
+    <text class="del_text">删除菜品</text>
+    <text class="iconfont icon-jianshao"></text>
+  </view>
+
+  <view class="up" bindtap="up">
+    <text class="up_text">修改菜品</text>
+    <text class="iconfont icon-xiugai"></text>
+  </view>
+
+</view>

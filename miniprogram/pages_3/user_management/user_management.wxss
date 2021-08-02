@@ -1,0 +1,180 @@
+page{
+  background: #DCDCDC;
+}
+.head{
+  width: 90%;
+  height: 100rpx;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  display: flex;
+}
+.icon-search{
+  font-size: 30px;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  height: auto;
+}
+.head input{
+  border-style: solid;
+  border-width: 1rpx;
+  border-radius: 10rpx;
+  width: 400rpx;
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+}
+.head button{
+  width: 150rpx;
+  height: 50rpx;
+  margin-top: 22rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+  background: red;
+  color: #F8F8FF;
+  text-align: center;
+}
+.body{
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  margin-top: 50rpx;
+}
+.account{
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 100rpx;
+  display: flex;
+}
+.account text{
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-top: 30rpx;
+
+}
+.bar{
+  width: 630rpx;
+  height: 5rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.password{
+  height: 100rpx;
+  display: flex;
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+.password text{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+}
+.bar_2{
+  width: 630rpx;
+  height: 5rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.nickname{
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 100rpx;
+  display: flex;
+}
+.nickname text{
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-top: 30rpx;
+}
+.phone{
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: auto
+;
+  display: flex;
+}
+.bar_3{
+  width: 630rpx;
+  height: 5rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.phone text{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  width: 300rpx;
+}
+.foot{
+  width: 90%;
+  border-radius: 25rpx;
+  background: #F8F8FF;
+  margin-left: 36.5rpx;
+}
+.scroll{
+  margin-top: 30rpx;
+}
+.item{
+  margin-top: 20rpx;
+  background: darkgrey;
+  border-radius: 25rpx;
+}
+.bar_4{
+  width: 630rpx;
+  height: 5rpx;
+  background:black;
+  z-index: 10;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.detail text{
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+.foot_head{
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 60rpx;
+}
+.foot{
+  margin-top: 50rpx;
+}
+.foot_head text{
+  font-weight: bold;
+  font-size: 45rpx;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  position: absolute;
+}
+.foot_foot{
+  height: 80rpx;
+
+}
+.fin{
+  margin-top: 50rpx;
+  height: 150rpx;
+}
+.fin button{
+  height: 100rpx;
+  background: red;
+  font-weight: bold;
+  font-size: 50rpx;
+  border-radius: 25rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+  color: #F8F8FF;
+}
+.password input{
+  width: 400rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  border-radius: 10rpx;
+  margin-top: 35rpx;
+}

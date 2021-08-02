@@ -1,0 +1,84 @@
+page{
+  background-color:	#DCDCDC ;
+}
+.head{
+  margin-top: 50rpx;
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+}
+.account{
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 80rpx;
+}
+.account text
+{
+
+  width:500rpx ;
+  margin-top: 10rpx;
+  position: absolute;
+}
+
+.bar{
+  width: 630rpx;
+  height: 3rpx;
+  background: black;
+  z-index: 10;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.name{
+  margin-top: 20rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 80rpx;
+}
+.name_text{
+  width: 400rpx;
+}
+.icon-xiugai{
+
+}
+
+.location{
+  width: 90%;
+  margin-left: 36.5rpx;
+  display: flex;
+}
+.location text{
+  margin-top: 10rpx;
+
+}
+
+.nickname{
+  margin-top: 60rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+.nickname text{
+  margin-top: 20rpx;
+}
+
+.issue{
+  width: 90%;
+  margin-left: 36.5rpx;
+
+  display: flex;
+  flex-flow: column;
+}
+.bar_4{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 380rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.issue text{
+  margin-top: 10rpx;
+}

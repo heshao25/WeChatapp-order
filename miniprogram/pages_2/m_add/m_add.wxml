@@ -1,0 +1,56 @@
+
+<view class="head">
+  <text class="head_ch">添加菜品</text>
+  <text class="head_en">ADD</text>
+</view>
+
+<view class="body">
+
+  <view class="step_1" >
+    <picker bindchange="bindtypeChange" value="{{index}}" range="{{Type_storage}}">
+      <view class="picker">
+        <text class="pick_text">选择种类:</text>
+        <view class="box">
+        <text class="picker_text">{{Type_storage[index]}}</text>
+        </view>
+        <text class="iconfont icon-tianjia" catchtap="show_input"></text>
+      </view>
+    </picker>
+  </view>
+
+  <block wx:if="{{input_on==1}}">
+  <view class="type_input">
+    <view class="input_head"></view>
+    <input type="text"  placeholder="请输入新种类" id="Type" bindinput="handleInput"/>
+    <view class="input_foot">
+      <button class="clear" bindtap="clear">取消</button>
+      <button class="input" bindtap="input">确认</button>
+    </view>
+  </view>
+  </block>
+
+  <view class="step_2">
+    <text class="name_text">菜品名称:</text>
+    <input type="text"  placeholder="请输入名称" id="Name" bindinput="handleInput"/>
+  </view>
+
+  <view class="step_3">
+    <text class="name_text">菜品配料:</text>
+    <input type="text"  placeholder="请输入配料" id="Ingredient" bindinput="handleInput"/>
+  </view>
+
+  <view class="step_4">
+    <text class="name_text">菜品价格:</text>
+    <input type="text"  placeholder="请输入价格" id="Price" bindinput="handleInput"/>
+  </view>
+
+  <view class="step_5">
+    <text class="name_text">菜品价格:</text>
+    <button bindtap="image">选择图片</button>
+  </view>
+
+</view>
+
+<view class="foot">
+  <button bindtap="up">确认提交</button>
+</view>

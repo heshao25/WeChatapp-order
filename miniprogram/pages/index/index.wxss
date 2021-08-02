@@ -1,0 +1,149 @@
+.index{
+  height: 450rpx;
+  width: 100%;
+  
+}
+.swiper{
+  height: 450rpx;
+  width: 100%;
+}
+.swiper image{
+  height: 450rpx;
+  width: 100%;
+}
+.food-order{
+  width: 100%;
+  height: 100rpx;
+  margin-top: 50rpx;
+
+}
+.button{
+  width: 500rpx;
+  color: white;
+  font-weight: bold;
+  border-radius: 50rpx;
+  background: red;
+  margin-left: 125rpx;
+}
+.index-food{
+  position: relative;
+  display: flex;
+}
+
+
+.food-border-tangshi-text{
+  font-size: 60rpx;
+  margin: 40rpx;
+  color: aliceblue;
+
+}
+.food-border-waimai-text{
+
+  font-size: 60rpx;
+  margin: 40rpx;
+  color: aliceblue;
+}
+.icon-waimai{
+  font-size: 100rpx;
+  color: aliceblue;
+}
+.icon-tangshi-1{
+  font-size: 100rpx;
+  color: aliceblue;
+}
+.introduce{
+  margin-top: 100rpx;
+  height: 300rpx;
+}
+
+.introduce text{
+  margin-left: 30rpx;
+  font-size: 40rpx;
+}
+.bar{
+  width: 680rpx;
+  height: 2rpx;
+  background: black;
+  margin: auto;
+}
+.introduce-list-item{
+  display: flex;
+
+}
+.introduce-list image{
+  height: 200rpx;
+  width: 200rpx;
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+
+}
+.introduce-list text{
+  margin-top: 25rpx;
+  font-size: 40rpx;
+}
+.list-text{
+  margin-right: 10rpx;
+  position: relative;
+  display: direction;
+  width: 250rpx;
+  height: 150rpx;
+}
+
+.list-more{
+  background: red;
+  height: 80rpx;
+  width: 200rpx;
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+  border-radius: 25rpx;
+  color: white;
+  font-weight: bold;
+}
+.list-to{
+  background: red;
+  height: 80rpx;
+  width: 200rpx;
+  margin-top: 70rpx;
+  margin-right: 30rpx;
+  border-radius: 25rpx;
+  font-weight: bold;
+  color: white;
+}
+.scroll{
+  display: flex;
+  padding: 20rpx 0;
+}
+.scroll image{
+  height: 200rpx;
+  width: 200rpx;
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+  border-radius: 25rpx;
+}
+
+.diner-more{
+  background: red;
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+  height: 80rpx;
+  width: 200rpx;
+  border-radius: 25rpx;
+  font-weight: bold;
+  color: white;
+}
+.diner-goto{
+  background: red;
+  margin-right: 30rpx;
+  margin-top: 70rpx;
+  height: 80rpx;
+  width: 200rpx;
+  border-radius: 25rpx;
+  font-weight: bold;
+  color: white;
+}
+.diner-text{
+  width: 250rpx;
+}
+.introduce-list-item image{
+  border-radius: 25rpx;
+}

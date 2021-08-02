@@ -1,0 +1,106 @@
+page{
+  background-color:	#DCDCDC ;
+}
+.head{
+  margin-top: 50rpx;
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  height: 480rpx;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+}
+.account{
+ width: 90%;
+  margin-left: 36.5rpx;
+  height: 80rpx;
+}
+.account text
+{
+
+  width:300rpx ;
+  margin-top: 20rpx;
+  position: absolute;
+}
+
+.bar{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 80rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.phone{
+  margin-top: 20rpx;
+}
+.phone_text{
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+  width: 400rpx;
+  position: absolute;
+}
+.icon-xiugai{
+  margin-left: 600rpx;
+  position: absolute;
+  margin-top: 10rpx;
+}
+.bar_2{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 180rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.location{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top: 100rpx;
+}
+.location text{
+  margin-top: 10rpx;
+}
+.icon_2{
+  margin-left: 290rpx;
+}
+.bar_3{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 280rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.nickname{
+  margin-top: 60rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+.nickname text{
+  margin-top: 20rpx;
+}
+.icon_3{
+  margin-left: 225rpx;
+}
+.issue{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top: 65rpx;
+}
+.bar_4{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 380rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.issue text{
+  margin-top: 10rpx;
+}

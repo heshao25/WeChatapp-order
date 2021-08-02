@@ -1,0 +1,71 @@
+page{
+  background: #DCDCDC;
+}
+.head{
+  width: 100%;
+  height: 300rpx;
+}
+.head text{
+  font-size: 50rpx;
+  margin-top: 50rpx;
+  margin-left: 280rpx;
+  position: absolute;
+}
+.body
+{
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  height: 400rpx;
+  display: flex;
+}
+.shop{
+  margin-left: 30rpx;
+  border-radius: 25rpx;
+  width: 280rpx;
+  height: 280rpx;
+  margin-top: 50rpx;
+  background: darkgrey;
+  display: flex;
+  flex-flow: column;
+}
+.user{
+  margin-left: 50rpx;
+  border-radius: 25rpx;
+  width: 280rpx;
+  height: 280rpx;
+  margin-top: 50rpx;
+  background: darkgrey;
+  display: flex;
+  flex-flow: column;
+}
+.user_text{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+}
+.icon-shangjia{
+  font-weight: bold;
+  font-size: 200rpx;
+  margin-left: 40rpx;
+}
+.shop_text{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+}
+.foot{
+  width: 100%;
+  height: 150rpx;
+  margin-top: 50rpx;
+}
+.foot button{
+  background: red;
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #F8F8FF;
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+

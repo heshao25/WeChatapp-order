@@ -1,0 +1,227 @@
+/* miniprogram/pages/order/order.wxss */
+page{
+  background:	#DCDCDC;
+}
+.shop{
+  display: flex;
+  height: 100rpx;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.type{
+  margin-left: 5rpx;
+  width: 150rpx;
+}
+.shop-name{
+  background: #F8F8FF;
+  border-bottom: 6rpx solid red;
+  margin-left: 15rpx;
+  height:60rpx;
+  font-size: 28rpx;
+  padding: 0 30rpx;
+  border-radius: 15rpx;
+}
+.shop-name-active{
+  background: red;
+  border-bottom: 6rpx solid #F8F8FF;
+  margin-left: 15rpx;
+  color: #F8F8FF;
+  height:60rpx;
+  font-size: 28rpx;
+  padding: 0 30rpx;
+  border-radius: 15rpx;
+}
+.shop-type{
+  background:#F8F8FF;
+  width:100rpx;
+  height:80rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  border-radius: 25rpx;
+  padding: 10rpx;
+  font-weight: bold;
+  align-items: center;
+}
+.shop-type-active
+{
+  background:red;
+  width:100rpx;
+  height:80rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  border-radius: 25rpx;
+  padding: 10rpx;
+  color: #F8F8FF;
+  font-weight: bold;
+  align-items: center;
+}
+.detail{
+  display: flex;
+}
+.f{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.g{
+  display: flex;
+  width: 100%;
+}
+.shop-food{
+  width: 100%;
+  background:#F8F8FF;
+
+  height:300rpx;
+  margin-top: 10rpx;
+  display: flex;
+  border-radius: 25rpx;
+}
+.detail text{
+  font-size: 25rpx;
+  width: 100rpx;
+}
+.detail image{
+  width: 180rpx;
+  height: 180rpx;
+  margin-left:100rpx;
+  margin-top: 20rpx;
+  border-radius: 25rpx;
+}
+.shop-food text{
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+  font-weight: bold;
+}
+.icon-tianjia{
+  font-size: 50rpx;
+
+  color: crimson;
+  margin-right: 70rpx;
+  margin-top: 20rpx;
+}
+.food{
+  margin-left: 30rpx;
+  margin-right: 50rpx;
+}
+
+.flex{
+  display: flex;
+  height: 1000rpx;
+
+}
+.shopcar{
+  background: red;
+  height: 100rpx;
+  width: 700rpx;
+  bottom: 10rpx;
+  margin-left: 30rpx;
+  z-index: 10;
+  position: absolute;
+  border-radius: 60rpx;
+}
+.icon-gouwuche{
+  font-size: 65rpx;
+  margin-left: 30rpx;
+  bottom: 10rpx;
+  position: absolute;
+  z-index: 10;
+  color: #F8F8FF;
+}
+.goods-number{
+  background: black;
+  height: 30rpx;
+  width: 30rpx;
+  z-index: 11;
+  border-radius: 50%;
+  margin-top: 10rpx;
+  margin-left: 120rpx;
+  position: absolute;
+}
+.goods-number text{
+  color: #F8F8FF;
+  font-size: 20rpx;
+  position: absolute;
+  z-index: 10;
+  margin-left: 8rpx;
+}
+.goods-price{
+  flex-flow: column;
+}
+.goods-price text{
+  font-size: 40rpx;
+  color: #F8F8FF;
+  margin-left: 150rpx;
+  font-weight: bold;
+  position: absolute;
+  z-index:10;
+  bottom: 20rpx;
+}
+.finish{
+
+  font-weight: bold;
+  font-size: 40rpx;
+  z-index: 11;
+  bottom: 20rpx;
+  margin-left: 550rpx;
+  position: absolute;
+
+}
+.finish text{
+  color: #F8F8FF;
+ display: flex;
+}
+.show_start{
+  bottom: -380rpx;
+  z-index: 8;
+  position: absolute;
+  margin-left: 80rpx;
+  height: 500rpx;
+  width: 600rpx;
+  background: #FF7F50;
+  border-radius: 25rpx;
+  transition:transfrom 1s;
+
+}
+.show_end{
+  bottom: 20rpx;
+  z-index: 8;
+  position: absolute;
+  margin-left: 80rpx;
+  height: 300rpx;
+  width: 600rpx;
+  background: #FF7F50;
+  border-radius: 25rpx;
+}
+.car-srcoll{
+  height: 200rpx;
+}
+.car-scroll-item{
+  padding: 20rpx;
+  display: flex;
+}
+.car-scroll-item text{
+  color: #F8F8FF;
+  font-size: 25rpx;
+}
+.sub-add{
+  margin-left: auto;
+}
+.car-head{
+  font-size:30rpx;
+}
+.car-head text {
+  color: #F8F8FF;
+}
+.icon-shanchu{
+  margin-left: 300rpx;
+}
+.taparea{
+  background: red;
+  height: 80rpx;
+  width: 500rpx;
+  bottom: 10rpx;
+  margin-left: 30rpx;
+  z-index: 7;
+  position: absolute;
+  border-radius: 60rpx;
+}

@@ -1,0 +1,98 @@
+page{
+  background: #DCDCDC;
+}
+.body{
+  height: auto;
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  margin-top: 100rpx;
+  display: flex;
+  flex-flow: column;
+}
+.bar{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 150rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.bar_2{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 20rpx;
+
+  margin-left: 20rpx;
+}
+.scroll{
+  height:auto;
+  margin-top: 30rpx;
+
+}
+.item{
+  display: flex;
+}
+.food{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 30rpx;
+
+}
+.item{
+  margin-top: 20rpx;
+}
+.number{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 600rpx;
+  position: absolute;
+}
+.icon-cheng{
+  font-weight: bold;
+  font-size: 30rpx;
+  margin-left: 300rpx;
+  position: absolute;
+  margin-top: 10rpx;
+}
+.name{
+  font-weight: bold;
+  font-size: 45rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.time{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 330rpx;
+  margin-top: 30rpx;
+}
+.p{
+  display: flex;
+
+}
+.icon-renminbi{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-top: 70rpx;
+  margin-left: 500rpx;
+}
+.way{
+  font-weight: bold;
+  font-size: 35rpx;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+.price{
+  font-weight: bold;
+  font-size: 45rpx;
+  margin-left: 10rpx;
+  margin-top: 60rpx;
+}
+.foot{
+  height: 30rpx;
+}

@@ -1,0 +1,77 @@
+
+
+  <scroll-view class="shop" scroll-x enable-flex>
+    <view class="{{item.name==ShopName ?'shop-name-active':'shop-name'}}" wx:for="{{ShopNameList}}" data-name="{{item.name}}" data-goods="{{item.goods}}" data-type="{{item.type}}" bindtap="GetType">
+      <text>{{item.name}}</text>
+    </view>
+  </scroll-view>
+
+<view class="flex">
+  <scroll-view class="type" scroll-y>
+    <view class='{{item.name==TypeName ? "shop-type-active":"shop-type"}}' wx:for="{{ShopType}}" data-name="{{item.name}}" bindtap="GetFood">
+      <text >{{item.name}}</text>
+
+    </view>
+  </scroll-view>
+
+  <scroll-view class="food"  scroll-y>
+    <view class="shop-food" wx:for="{{Food}}">
+      <view class="f">
+        <view class="g">
+      <text space="ensp">{{item.name}}  </text>
+      <text>价格：{{item.price}} 元</text>
+          <text class="iconfont icon-tianjia" bindtap="add" data-name="{{item.name}}" data-price="{{item.price}}"></text>
+        </view>
+        <view class="detail">
+      <text class="text">成分：{{item.element}}</text>
+
+      <image src="{{item.image}}"></image>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+</view>
+
+<!-----购物车部分------------------------------------------->
+<block wx:if="{{Price!=0}}">
+<view class="shopcar" >
+  <view class="taparea" bindtap="showshopcar"></view>
+  <text class="iconfont icon-gouwuche"></text>
+  <view class="goods-number">
+    <text>{{Goodsnumber}}</text>
+  </view>
+  <view class="goods-price">
+  <text class="iconfont icon-renminbi">{{Price}}</text>
+  </view>
+  <view class="finish" bindtap="tosettlement">
+    <text>选好了</text>
+  </view>
+</view>
+
+<view class="showcar">
+  <view class="show_start {{isClick?'show_end':''}}">
+    <view class="car-head">
+      <text style="font-weight: bold">我的购物车</text>
+      <text class="iconfont icon-shanchu" bindtap="clearshopcar"></text>
+      <text bindtap="clearshopcar">清空</text>
+    </view>
+    <scroll-view class="car-srcoll" scroll-y>
+
+      <view wx:for="{{FoodList}}"  class="car-scroll-item">
+
+        <text>{{item}}</text>
+
+        <view class="sub-add">
+          <text class="iconfont icon-jianshao" bindtap="extrasub" data-name="{{item}}"></text>
+          <text>{{FoodListNumber[index]}}</text>
+          <text class="iconfont icon-tianjia bindtap" bindtap="extraadd" data-name="{{item}}" data-number="{{Number}}"></text>
+        </view>
+
+      </view>
+
+
+    </scroll-view>
+  </view>
+</view>
+</block>

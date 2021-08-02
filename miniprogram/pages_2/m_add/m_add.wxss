@@ -1,0 +1,202 @@
+page{
+  background: #DCDCDC;
+}
+.head{
+  width: 100%;
+  height: 150rpx;
+}
+.head_ch{
+  font-weight: bold;
+  font-size: 55rpx;
+  margin-left: 35rpx;
+  margin-top: 40rpx;
+  position: absolute;
+  z-index: 10;
+}
+.head_en{
+  font-size: 50rpx;
+  color: darkgrey;
+  margin-left: 180rpx;
+  margin-top: 80rpx;
+  z-index: 5;
+  position: absolute;
+}
+.step_1{
+  display: flex;
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  height: 150rpx;
+}
+.picker{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top:50rpx ;
+  display: flex;
+}
+.pick_text{
+  color: #606266;
+  font-weight: bold;
+  font-size: 40rpx;
+  width: 200rpx;
+  margin-top: 5rpx;
+}
+.picker_text{
+  font-size: 35rpx;
+
+  margin-left: 40rpx;
+}
+.box{
+  border-style:solid;
+  border-width:1px;
+  width: 150rpx;
+  border-radius: 10rpx;
+  margin-top: 5rpx;
+  margin-left:30rpx ;
+  background:	#F5F5F5;
+  height: 60rpx;
+}
+.icon-tianjia{
+  color: red;
+  margin-left:200rpx;
+  margin-top: 5rpx;
+  font-size: 55rpx;
+  font-weight: bold;
+}
+.type_input{
+  width: 500rpx;
+  height: 325rpx;
+  position: absolute;
+  margin-top: 0rpx;
+  margin-left: 130rpx;
+  z-index: 20;
+  border-radius: 25rpx;
+  background: #F8F8FF;
+  border-style:solid;
+  border-width:1px;
+}
+.input_head{
+  background: red;
+  width: 100%;
+  height: 70rpx;
+  border-top-left-radius: 25rpx;
+  border-top-right-radius: 25rpx;
+}
+.type_input input{
+  width: 400rpx;
+  border-radius: 10rpx;
+  border-style:solid;
+  border-width:1px;
+  margin-left: 50rpx;
+  margin-top: 30rpx;
+  height: 100rpx;
+}
+.input_foot{
+  width: 100%;
+  display: flex;
+  margin-top: 18rpx;
+}
+.clear{
+  width: 250rpx;
+  margin-top: 10rpx;
+  background: #F8F8FF;
+  border-bottom-left-radius: 25rpx;
+  color: red;
+}
+.input{
+  width: 250rpx;
+  margin-top: 10rpx;
+  background: #F8F8FF;
+  border-bottom-right-radius: 25rpx;
+}
+.step_2{
+  display: flex;
+  width:90%;
+  height: 150rpx;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  margin-top: 20rpx;
+}
+.step_2 input{
+  width: 400rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  border-radius: 10rpx;
+  height: 80rpx;
+  margin-top: 35rpx ;
+}
+.name_text{
+  color: #606266;
+  font-weight: bold;
+  font-size: 40rpx;
+  width: 200rpx;
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+}
+.step_3{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top: 30rpx;
+  border-radius: 25rpx;
+  background: #F8F8FF;
+  height: 250rpx;
+  display: flex;
+}
+.step_3 input{
+  width: 400rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  border-radius: 10rpx;
+  height: 180rpx;
+  margin-top: 35rpx ;
+}
+.step_4{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top: 30rpx;
+  border-radius: 25rpx;
+  background: #F8F8FF;
+  height: 150rpx;
+  display: flex;
+}
+.step_4 input{
+  width: 400rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  border-radius: 10rpx;
+  height: 80rpx;
+  margin-top: 35rpx ;
+}
+.step_5{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top: 30rpx;
+  border-radius: 25rpx;
+  background: #F8F8FF;
+  height: 150rpx;
+  display: flex;
+}
+.step_5 button{
+  width: 200rpx;
+  background: red;
+  color: #F8F8FF;
+  margin-left: 50rpx;
+  height: 60rpx;
+  margin-top: 45rpx;
+  font-size: 30rpx;
+}
+.foot{
+  margin-top: 40rpx;
+  height: 200rpx;
+}
+.foot button{
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: red;
+  font-weight: bold;
+  color: #F8F8FF;
+  font-size: 40rpx;
+  border-radius: 25rpx;
+}

@@ -1,0 +1,27 @@
+<view class="head">
+  <text>商家服务</text>
+</view>
+
+
+<view class="belly">
+  <view class="belly_1" bindtap="toorder">
+    <text class="iconfont icon-danju"></text>
+    <text class="belly_1_text">实时订单</text>
+  </view>
+  <view class="belly_2" bindtap="tomanagement">
+    <text class="iconfont icon-caipin"></text>
+    <text class="belly_2_text">菜品管理</text>
+  </view>
+  <view class="belly_3" bindtap="toorders">
+    <text class="iconfont icon-lishidingdan"></text>
+    <text class="belly_3_text">历史订单</text>
+  </view>
+  <view class="belly_4" bindtap="toinformation">
+    <text class="iconfont icon-shangjia"></text>
+    <text class="belly_4_text">商家信息</text>
+  </view>
+
+</view>
+<view class="foot">
+  <view class="close" bindtap="change">{{Open}}</view>
+</view>

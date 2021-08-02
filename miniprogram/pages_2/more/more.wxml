@@ -1,0 +1,28 @@
+
+<view class="body">
+
+  <text class="name">{{nickname}}</text>
+  <text class="time">{{time}}</text>
+
+  <view class="bar"></view>
+  <scroll-view scroll-y class="scroll">
+
+    <view class="item" wx:for="{{food}}">
+      <text class='food'>{{item}}</text>
+      <text class="iconfont icon-cheng"></text>
+      <text class="number">{{number[index]}}</text>
+    </view>
+
+
+  </scroll-view>
+  <view class="bar_2"></view>
+  <text class="way">{{way}}</text>
+  <view class="p">
+    <text class="iconfont icon-renminbi"></text>
+  <text class="price">{{price}}</text>
+  </view>
+  <view class="foot">
+
+  </view>
+
+</view>

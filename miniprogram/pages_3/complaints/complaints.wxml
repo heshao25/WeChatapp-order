@@ -1,0 +1,14 @@
+<view class="body">
+
+  <scroll-view scroll-y class="scroll">
+
+    <view class="item" wx:for="{{Storage}}">
+      <text class="nickname">{{item.name}}</text>
+      <text class="name">{{item.a_name}}</text>
+      <view class="bar"></view>
+      <text class="content">{{item.content}}</text>
+    </view>
+
+  </scroll-view>
+
+</view>

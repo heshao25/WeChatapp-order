@@ -1,0 +1,84 @@
+<view class="index">
+<swiper class="swiper" indicator-dots="true">
+  <swiper-item>
+<image src="cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/guangpan.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/shitang-1.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/shitang-3.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="cloud://chain1-2gyuuzu498191781.6368-chain1-2gyuuzu498191781-1305135605/static/images/shitang-2.jpg"></image>
+</swiper-item>
+</swiper>
+  <!--按钮 ------------------------------------------------------------------ -->
+<view class="index-food">
+  <!-- 按钮-->
+  <view class="food-order" bindtap="order">
+  <button class="button">前往点餐</button>
+  </view>
+
+</view>
+  <!--学校食堂 -------------------------------------------------------------------- -->
+  <view class="introduce">
+    <text>主食堂介绍</text>
+    <view class="bar"></view>
+
+    <swiper class="introduce-list" >
+
+      <swiper-item class="introduce-list-item" wx:for="{{DataList}}">
+        <image src="{{item.image}}"></image>
+        <!--scroll的文字部分-->
+        <view class="list-text">
+        <text style="font-weight: bold">{{item.name}}\n </text>
+        <text style="font-size: 30rpx ">{{item.information}}\n</text>
+        </view>
+
+        <!--scroll的按钮部分-->
+        <view class="list-button">
+
+        <button bindtap="tomore" class="list-more" data-_id="{{item._id}}">更多</button>
+        <button class="list-to" bindtap="toorder" data-nameorder="{{item.name}}">前往点餐</button>
+
+        </view>
+
+      </swiper-item>
+
+    </swiper>
+
+    <!--小店面小超市等---------------------------------------------------------------------->
+    <view class="introduce-diner">
+
+      <text>小餐馆介绍</text>
+      <view class="bar"></view>
+      <scroll-view  scroll-y >
+
+        <view class="scroll" wx:for="{{DinerList}}">
+      <image src="{{item.image}}"></image>
+          <!--文字部分---------------------------------->
+          <view class="diner-text">
+        <text style="font-weight: bold">{{item.name}}\n</text>
+        <text style="font-size: 30rpx ">{{item.information}}</text>
+          </view>
+          <!--按钮部分---------------------------------->
+          <view class="diner-button">
+          <button class="diner-more" bindtap="todinermore" data-_id="{{item._id}}">更多</button>
+          <button class="diner-goto" bindtap="toorder" data-nameorder="{{item.name}}">前往点餐</button>
+          </view>
+        </view>
+
+
+
+
+      </scroll-view>
+
+    </view>
+
+
+  </view>
+
+
+
+</view>

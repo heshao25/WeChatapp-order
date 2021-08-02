@@ -1,0 +1,54 @@
+
+<view class="header">
+  <view class="circle">
+    <text class="iconfont icon-dianpu1"></text>
+  </view>
+
+
+  <view class="name">
+    <text style="font-weight: boldn">{{Location}}</text>
+  </view>
+
+</view>
+<view class="neck">
+  <view class="pick">
+    <text style="font-weight: bold"  class="pickUp">取餐方式</text>
+    <view class="pickup" bindtap="changepickway">{{Pickway}}<text class="iconfont icon-genggai" bindtap="changepickway"></text></view>
+  </view>
+  <view class="bar"></view>
+  <view class="phone">
+    <text style="font-weight: bold" class="phoneNumber">联系电话</text>
+    <text style="font-size: 30rpx" class="phonenumber">13934146215</text>
+  </view>
+</view>
+  <view class="leg">
+  <view  class="leg_head">餐品详情</view>
+    <view class="bar_2"></view>
+    <scroll-view scroll-y class="scroll" >
+
+      <view class="item" wx:for="{{FoodList}}">
+        <text>{{item}}</text>
+        <text class="iconfont icon-cheng">{{FoodNumber[index]}}</text>
+      </view>
+
+      <view class="bar_3"></view>
+
+      <view class="item_last">
+        <text>小计</text>
+        <text style="font-weight: bold;font-size: 35rpx" class="iconfont icon-renminbi">{{Price}}</text>
+      </view>
+    </scroll-view>
+
+
+
+  </view>
+
+
+
+<view class="foot">
+  <text class="iconfont icon-renminbi">{{Price}}</text>
+  <button class="pay" bindtap="pay">立即支付</button>
+</view>
+
+
+

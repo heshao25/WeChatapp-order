@@ -1,0 +1,119 @@
+page{
+  background:	#DCDCDC;
+}
+.tips{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-left: 280rpx;
+  color: #F8F8FF;
+}
+.head{
+  width: 100%;
+  height: 70rpx;
+  background: 	#DCDCDC;
+}
+.neck{
+  width: 100%;
+
+}
+.scroll{
+  width: 100%;
+
+}
+.item{
+  width: 90%;
+  height: 400rpx;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  margin-top: 25rpx;
+  border-radius: 25rpx;
+
+}
+.clear{
+  font-size: 25rpx;
+  text-align: center;
+  font-weight: bold;
+  color: #F8F8FF;
+  background: green;
+  width: 150rpx;
+  height: 50rpx;
+  position: absolute;
+  margin-top: 325rpx;
+  margin-left: 490rpx;
+  z-index: 10;
+}
+.check{
+  font-size: 25rpx;
+  text-align: center;
+  font-weight: bold;
+  color: #F8F8FF;
+  background: green;
+  width: 200rpx;
+  height: 50rpx;
+  position: absolute;
+  margin-top: 325rpx;
+  margin-left: 250rpx;
+  z-index: 10;
+}
+.item image{
+  height: 160rpx;
+  width: 160rpx;
+  margin-left: 30rpx;
+  margin-top: 120rpx;
+  position:  absolute;
+  border-radius: 25rpx;
+}
+.icon-dianpu{
+  font-size: 40rpx;
+  margin-left: 25rpx;
+  margin-top: 35rpx;
+  position: absolute;
+  color: red;
+}
+.text{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-left: 80rpx;
+  margin-top: 35rpx;
+  position: absolute;
+}
+.bar{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 100rpx;
+  position: absolute;
+  margin-left: 20rpx;
+
+}
+.bar_2{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 300rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.content{
+  display: flex;
+}
+.foot{
+  height: 200rpx;
+}
+.detail{
+  margin-left: 210rpx;
+  display: flex;
+  flex-flow: column;
+  height: 160rpx;
+  width: 440rpx;
+  margin-top: 120rpx;
+  position: absolute;
+}
+.detail text{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  font-weight: bold;
+  margin-left: 30rpx;
+}

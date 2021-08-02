@@ -1,0 +1,5 @@
+
+<text>{{Data}}</text>
+<text>{{Latitude}}</text>
+<text>{{Longitude}}</text>
+<button class="location" bindtap="getLocation">查看具体位置</button>

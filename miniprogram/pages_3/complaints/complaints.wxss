@@ -1,0 +1,42 @@
+page{
+  background: #DCDCDC;
+}
+.body{
+ margin-top: 150rpx;
+}
+.scroll{
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+.item{
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 300rpx;
+  margin-top: 30rpx;
+  display: flex;
+  flex-flow: column;
+}
+.bar{
+  width: 610rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 10rpx;
+}
+.nickname{
+  font-weight: bold;
+  font-size: 45rpx;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+}
+.content{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+}
+.name{
+  margin-left: 450rpx;
+  font-weight: bold;
+}

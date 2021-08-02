@@ -1,0 +1,35 @@
+<view class="head">
+
+  <view class="account">
+    <text>我的账号：{{userInfo.account}}</text>
+
+  </view>
+
+  <view class="bar"></view>
+
+  <view class="phone">
+    <text class="phone_text">我的手机：{{userInfo.phonenumber}}</text>
+    <text class="iconfont icon-xiugai" bindtap="revise_phone"></text>
+  </view>
+
+  <view class="bar_2"></view>
+
+<view class="location">
+  <text>我的地址：{{userInfo.location}}</text>
+  <text class="iconfont icon-xiugai icon_2" bindtap="revise_location"></text>
+</view>
+
+  <view class="bar_3"></view>
+<view class="nickname">
+  <text>我的昵称：{{userInfo.nickname}}</text>
+  <text class="iconfont icon-xiugai icon_3" bindtap="revise_nickname"></text>
+</view>
+
+  <view class="bar_4"></view>
+
+  <view class="issue">
+    <text>我的密保问题：{{userInfo.issue}}</text>
+  </view>
+
+
+</view>

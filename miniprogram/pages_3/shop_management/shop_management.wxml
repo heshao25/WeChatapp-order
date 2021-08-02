@@ -1,0 +1,78 @@
+<view class="head">
+  <text class="iconfont icon-search"></text>
+  <input type="text"  placeholder="请输入要搜索的用户账号" id="Search" bindinput="handleInput"/>
+  <button bindtap="search">搜索</button>
+</view>
+
+<block wx:if="{{Storage.length!=0}}">
+
+<view class="body">
+  <view class="show">
+    <view class="account">
+      <text style="font-size: 35rpx;font-weight: bold">账号:</text>
+      <text >{{Storage.account}}</text>
+    </view>
+
+    <view class="bar"></view>
+
+    <view class="password">
+      <text>密码:</text>
+<!--      <text>{{Storage.password}}</text>-->
+      <input type="text"  placeholder="{{Storage.password}}" id="Password" bindinput="handleInput"/>
+      <text style="margin-left:550rpx;position: absolute;margin-top: 35rpx;" class="iconfont icon-xiugai" bindtap="change_password"></text>
+    </view>
+
+    <view class="bar_2"></view>
+
+    <view class="info">
+      <text>简介:</text>
+<!--      <text >{{Information.information}}</text>-->
+      <input type="text"  placeholder="{{Information.information}}" id="Info" bindinput="handleInput"/>
+      <text style="margin-left:550rpx;position: absolute;margin-top: 35rpx;" class="iconfont icon-xiugai" bindtap="change_info"></text>
+    </view>
+
+    <view class="bar_3"></view>
+
+    <view class="information">
+      <text style="width:150rpx">详细介绍:</text>
+      <text >{{Information.detail}}</text>
+      <text style="margin-left:550rpx;position: absolute;margin-top: 35rpx;" class="iconfont icon-xiugai" bindtap="change_detail"></text>
+    </view>
+
+  </view>
+</view>
+
+<view class="foot">
+
+  <view class="foot_head">
+    <text>此店的投诉信息</text>
+  </view>
+
+  <scroll-view scroll-y class="scroll">
+    <view class="item" wx:for="{{Complaints}}">
+
+      <view class="nickname">
+        <text style="font-weight: bold;font-size: 40rpx;margin-left: 30rpx">{{item.name}}</text>
+      </view>
+
+      <view class="bar_4"></view>
+
+      <view class="detail">
+        <text>{{item.content}}</text>
+      </view>
+
+    </view>
+
+
+  </scroll-view>
+  <view class="foot_foot">
+
+  </view>
+
+</view>
+
+<view class="fin">
+  <button bindtap="clear">删除此账号</button>
+</view>
+
+</block>

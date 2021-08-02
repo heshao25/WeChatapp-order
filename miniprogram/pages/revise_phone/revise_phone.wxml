@@ -1,0 +1,19 @@
+
+<view class="container">
+  <view class="wrapper">
+    <view class="left-top-sign">REVISE</view>
+    <view class="welcome">
+      修改号码
+    </view>
+    <view class="input-content">
+      <view class="input-item">
+        <text class="tit">号码</text>
+        <input  type="text" placeholder="请输入新的号码" maxlength="11" id="Phone"  bindinput="handleInput"/>
+      </view>
+
+    </view>
+    <button class="confirm-btn" bindtap="change">确定</button>
+
+  </view>
+
+</view>

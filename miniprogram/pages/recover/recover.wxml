@@ -1,0 +1,30 @@
+
+<view class="container">
+  <view class="wrapper">
+    <view class="left-top-sign">RECOVER</view>
+    <view class="welcome">
+       找回密码
+    </view>
+    <view class="input-content">
+
+      <view class="input-item">
+        <text class="tit">账号</text>
+        <input  type="text" placeholder="请输入您的账号"id="Account" bindinput="handleInput"/>
+      </view>
+
+<!--      <view class="input-item">-->
+<!--        <text class="tit">密保问题</text>-->
+<!--        <input type="password"  placeholder="请输入您注册时填写的密保问题" id="Issue" bindinput="handleInput"/>-->
+<!--      </view>-->
+
+<!--      <view class="input-item">-->
+<!--        <text class="tit">问题答案</text>-->
+<!--        <input type="password"  placeholder="请输入您注册时填写的密保答案" id="Answer" bindinput="handleInput"/>-->
+<!--      </view>-->
+
+    </view>
+    <button class="confirm-btn" bindtap="next">下一步</button>
+
+  </view>
+
+</view>

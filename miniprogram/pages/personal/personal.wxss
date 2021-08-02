@@ -1,0 +1,177 @@
+page{
+  background-color:	#F5F5F5 ;
+}
+.head{
+  width: 90%;
+  height: 300rpx;
+  background: #FFFFFFFF;
+  border-bottom-right-radius:25rpx;
+  border-bottom-left-radius:25rpx;
+  margin-left: 36.5rpx;
+  box-shadow: darkgray 10px 10px 30px 5px;
+  position: absolute;
+  display: flex;
+}
+.avatar{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  background: darkgray;
+  margin-top: 70rpx;
+  margin-left: 60rpx;
+}
+.avatar image{
+  height: 150rpx;
+  width: 150rpx;
+
+  border-radius: 50%;
+}
+
+.username{
+  text-align: center;
+}
+.name{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top: 80rpx;
+  position: absolute;
+  margin-left: 45rpx;
+}
+.account{
+  font-size: 30rpx;
+  color: darkgray ;
+  margin-top: 150rpx;
+  position: absolute;
+  margin-left:45rpx ;
+}
+.misc{
+  width: 90%;
+  height: 150rpx;
+  margin-left: 36.5rpx;
+  background:red;
+  margin-top: 370rpx;
+  position: absolute;
+  border-radius: 25rpx;
+  background: #ffffff;
+  display: flex;
+}
+.orders{
+  width: 225rpx;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.icon-danju{
+  margin-top: 10rpx;
+  font-size: 80rpx;
+  color: red;
+}
+.order{
+
+  font-size: 30rpx;
+  color: darkgray;
+}
+.points{
+  width: 225rpx;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.icon-jifen{
+  margin-top: 10rpx;
+  font-size: 80rpx;
+  color: red;
+
+}
+.point{
+  font-size: 30rpx;
+  color: darkgray;
+
+}
+.informations{
+  width: 225rpx;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.icon-personnone{
+  font-size: 80rpx;
+  margin-top: 10rpx;
+  color: red;
+  font-weight: bold;
+}
+.information{
+  font-size: 30rpx;
+  color: darkgray;
+  text-align: center;
+}
+.setting{
+  width: 90%;
+  height: 300rpx;
+   background:#FFFFFFFF ;
+  border-radius: 25rpx;
+  position: absolute;
+  margin-top: 590rpx;
+  margin-left: 36.5rpx;
+  display: flex;
+  flex-flow: column;
+}
+.article{
+  height: 100rpx;
+}
+.article text{
+  font-size: 25rpx;
+  margin-top: 35rpx;
+  position: absolute;
+  margin-left: 30rpx;
+}
+.bar{
+  width: 630rpx;
+  height: 1rpx;
+  background: darkgray;
+  z-index: 10;
+  margin-top: 100rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+.bar_2{
+  width: 630rpx;
+  height: 1rpx;
+  background:darkgray;
+  z-index: 10;
+  margin-top: 200rpx;
+  position: absolute;
+  margin-left: 20rpx;
+}
+
+.security{
+  height: 100rpx;
+}
+.security text{
+  font-size: 25rpx;
+  margin-top: 35rpx;
+  position: absolute;
+  margin-left: 30rpx;
+}
+.complaints{
+  height: 100rpx;
+}
+.complaints text{
+  font-size: 25rpx;
+  margin-top: 35rpx;
+  position: absolute;
+  margin-left: 30rpx;
+}
+.quit{
+  bottom: 30rpx;
+  position: absolute;
+  width: 100%;
+}
+.quit button{
+  background: red;
+  width: 250rpx;
+  height: 100rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #F8F8FF;
+}

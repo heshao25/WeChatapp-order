@@ -1,0 +1,19 @@
+
+<view class="container">
+  <view class="wrapper">
+    <view class="left-top-sign">REVISE</view>
+    <view class="welcome">
+      修改昵称
+    </view>
+    <view class="input-content">
+      <view class="input-item">
+        <text class="tit">昵称</text>
+        <input  type="text" placeholder="请输入新的昵称" maxlength="10" id="Nickname"  bindinput="handleInput"/>
+      </view>
+
+    </view>
+    <button class="confirm-btn" bindtap="change">确定</button>
+
+  </view>
+
+</view>

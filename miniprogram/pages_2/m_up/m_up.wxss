@@ -1,0 +1,125 @@
+page{
+  background: #DCDCDC;
+}
+.head{
+  width: 100%;
+  height: 150rpx;
+}
+.head_ch{
+  font-weight: bold;
+  font-size: 55rpx;
+  margin-left: 35rpx;
+  margin-top: 40rpx;
+  position: absolute;
+  z-index: 10;
+}
+.head_en{
+  font-size: 50rpx;
+  color: darkgrey;
+  margin-left: 180rpx;
+  margin-top: 80rpx;
+  z-index: 5;
+  position: absolute;
+}
+.step_1{
+  display: flex;
+  width: 90%;
+  margin-left: 36.5rpx;
+  background: #F8F8FF;
+  border-radius: 25rpx;
+  height: 150rpx;
+}
+.picker{
+  width: 90%;
+  margin-left: 36.5rpx;
+  margin-top:50rpx ;
+  display: flex;
+}
+.pick_text{
+  color: #606266;
+  font-weight: bold;
+  font-size: 40rpx;
+  width: 200rpx;
+  margin-top: 5rpx;
+}
+.picker_text{
+  font-size: 35rpx;
+
+  margin-left: 40rpx;
+}
+.box{
+  border-style:solid;
+  border-width:1px;
+  width: 150rpx;
+  border-radius: 10rpx;
+  margin-top: 5rpx;
+  margin-left:30rpx ;
+  background:	#F5F5F5;
+  height: 60rpx;
+}
+.step_2{
+  background: #F5F5F5;
+  width: 90%;
+  margin-left: 36.5rpx;
+  border-radius: 25rpx;
+
+}
+
+.scroll{
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+.step_2{
+  margin-top: 30rpx;
+  border-radius: 25rpx;
+  width: 90%;
+  margin-left: 36.5rpx;
+}
+.item{
+  display: flex;
+  margin-top:30rpx
+}
+.item image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 25rpx;
+}
+.name{
+  font-size: 35rpx;
+  font-weight: bolder;
+  margin-top:50rpx;
+  margin-left: 250rpx;
+  width:200rpx;
+  position: absolute;
+}
+.icon-xiugai{
+  font-size: 50rpx;
+  font-weight: bolder;
+  color: red;
+  margin-top:50rpx;
+
+  margin-left: 550rpx;
+  position: absolute;
+}
+.icon-renminbi{
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin-left: 500rpx;
+  margin-top:130rpx;
+  position: absolute;
+
+}
+.price{
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin-left: 555rpx;
+  margin-top:130rpx;
+  position: absolute;
+}
+.step_2_foot{
+  width: 90%;
+  margin-left: 36.5rpx;
+  height: 30rpx;
+}
+
+  
